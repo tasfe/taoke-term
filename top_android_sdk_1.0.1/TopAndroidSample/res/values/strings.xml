@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">TopAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">top_android_test</string>
+    <string name="back_alert_msg">确定要中止授权操作吗？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="auth_loading">页面加载中,请稍候</string>
+    <string name="auth_failed">使用淘宝账号登录失败，失败原因：</string>
+    <string name="btn_uuid">uuid</string>
+    <string name="asyncbtn">异步api</string>
+    <string name="refreshbtn">刷新token</string>
+    <string name="asyncrefreshbtn">异步刷新token</string>
+    <string name="authbtn">授权</string>
+    <string name="apibtn">同步api调用</string>
+    <string name="asynctqlbtn">异步TQL</string>
+    <string name="tqlbtn">同步TQL</string>
+    <string name="showauth">显示已授权</string>
+    <string name="commitbtn">确定</string>
+    <string name="uploadbtn">上传图片</string>
+
+</resources>

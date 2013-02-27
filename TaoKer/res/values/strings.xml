@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taoke</string>
+    <string name="menu_settings">功能</string>
+    <string name="title_name">我的APP</string>
+    <string name="main_home">首页</string>
+    <string name="main_news">信息</string>
+    <string name="main_my_info">我的资料</string>
+    <string name="menu_search">搜索</string>
+    <string name="more">更多</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>

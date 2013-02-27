@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taoke"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16" />
+
+    <application
+        android:name="com.taoke.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/title" >
+        <activity
+            android:name="com.taoke.LoadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" > <!-- 屏幕没有标题栏 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.taoke.MainActivity" android:label="@string/app_name"></activity>
+        <activity android:name="com.taoke.MainTabActivity" android:label="@string/title_activity_main_tab"></activity>
+        <activity android:name="com.taoke.MoreActivity" android:label="@string/title_activity_more"></activity>
+        <activity android:name="com.taoke.HomeActivity" android:label="@string/title_activity_home"></activity>
+		<activity android:name="com.taoke.BrowserActivity" android:label="@string/title_activity_home"></activity>
+        
+        <service android:name="com.taoke.upgrade.UpdateService"> </service>
+        
+    </application>
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!-- 读写文件 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /><!-- 读取sdcard -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/> <!-- 统计用户手机的系统信息 -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission> <!-- 访问Wi-Fi网络状态信息 -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission> <!-- 访问有关GSM网络信息 -->
+	
+    
+</manifest>
