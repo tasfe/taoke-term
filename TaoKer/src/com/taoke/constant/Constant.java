@@ -1,5 +1,10 @@
 package com.taoke.constant;
 
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.taoke.BrowserActivity;
+
 /**
  * 
  * @author Taoke
@@ -25,5 +30,5 @@ public class Constant {
 	/**
 	 * 
 	 */
-	public static final String TAG = "Alone";
+	public static final String TAG = "TaoKe";
 }
