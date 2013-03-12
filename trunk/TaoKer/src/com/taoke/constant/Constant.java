@@ -15,12 +15,12 @@ public class Constant {
 	/**
 	 * TaoBao App Key
 	 */
-	public static final String  APP_KEY = "21389401";
+	public static final String  APP_KEY = "21398689";
 	
 	/**
 	 * TaoBao Secret
 	 */
-	public static final String  APP_SECRET = "dc0799a7373d7c9b0515a2a4da6e6d45";
+	public static final String  APP_SECRET = "087e7c295716c648dcd6fd4c1b0e911a";
 	
 	/**
 	 * TaoBao API url
