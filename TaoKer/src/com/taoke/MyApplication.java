@@ -2,7 +2,6 @@ package com.taoke;
 
 import com.taobao.top.android.TopAndroidClient;
 import com.taoke.constant.Constant;
-import com.taoke.taobao.TaobaoGetShop;
 
 import android.app.Application;
 import android.content.Intent;
